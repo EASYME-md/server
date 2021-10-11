@@ -7,7 +7,7 @@ require('./config/db');
 
 const invalidUrlError = require('./middlewares/invalidUrlError');
 const handleError = require('./middlewares/handleError');
-const indexRouter = require('./routes/index');
+const contents = require('./routes/contents');
 
 const app = express();
 
@@ -18,7 +18,7 @@ app.use(cors({
   credentials: true,
 }));
 
-app.use('/', indexRouter);
+app.use('/d', contents);
 
 app.use(invalidUrlError);
 app.use(handleError);
