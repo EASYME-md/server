@@ -7,6 +7,10 @@
     "dev": "NODE_ENV=development nodemon ./bin/www",
     "test": "NODE_ENV=test mocha --exit"
   },
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <17.0.0"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "debug": "~2.6.9",
