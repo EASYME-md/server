@@ -18,6 +18,7 @@ app.use(cors({
   credentials: true,
 }));
 
+app.get('/', (req, res) => res.send('server works'));
 app.use('/d', contents);
 
 app.use(invalidUrlError);
