@@ -1,11 +1,3 @@
-# ❗️알림❗️
-
-현재 도메인 만료가 되어서 다른 도메인으로 사이트를 옮겼습니다.   
-바뀐 도메인은 https://www.easy-me.com/ 이며, 아직 서버 설정을 하지 않았습니다.   
-그래서 저장(`Ctrl + S`, `Cmd + S`) 기능이 현재 작동하지 않으니 참고 부탁드려요.   
-
----
-
 ![cartoon](public/assets/readme/cartoon.png)
 
 <br>
@@ -37,7 +29,6 @@ Markdown 문법, 알고는 있는데.. README.md 작성할 때만 되면 버벅�
 
 # 📖 Contents
 
-- [❗️알림❗️](#️알림️)
 - [😉 EASYME.md](#-easymemd)
 - [📖 Contents](#-contents)
 - [🌈 Background](#-background)
